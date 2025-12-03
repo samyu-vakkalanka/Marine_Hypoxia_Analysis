@@ -1,0 +1,3 @@
+Model,Architecture,Parameters,CV MAE (%),CV R²,Duration (min),CO₂ (g),Zones
+LSTM (Bi-directional),Deep Learning,"89,906",3.79 ± 2.60,0.645 ± 0.327,1.07,0.318,2
+Random Forest,Ensemble,100 trees,5.61 ± 1.18,0.400 ± 0.382,0.09,0.027,2

@@ -1,0 +1,5 @@
+Model,Architecture,Parameters,Train MAE (%),Val MAE (%),Test MAE (%),Train R²,Val R²,Test R²,Duration (min),CO₂ (g),Zones
+LSTM V1,LSTM,"37,315",5.20,5.98,3.00,-0.024,-0.353,-0.509,1.01,0.300,3
+LSTM V2,LSTM,"144,867",9.65,5.72,0.54,-0.953,-0.849,-0.347,1.01,0.300,3
+LSTM V3 Bidirectional,Bi-LSTM,"90,947",4.93,5.48,3.26,0.248,-0.296,-2.967,1.01,0.300,3
+Random Forest,Ensemble,100 trees,3.55,5.61 ± 1.18,6.66,0.832,0.400 ± 0.382,-7.977,0.09,0.027,2*
