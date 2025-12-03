@@ -4,7 +4,11 @@ From the spring through the summer in the Gulf of Mexico, scientists have measur
 
 
 NOTES:
-- tested lstm model and random forest
-  - because we are only predicting one value per zone per year, a traditional model was usable (independence between years, but the time series is inputted as separate features)
-- output: percent of stations in zone recording hypoxic conditions
-- changes: not using nutrient data (not enough years available for modeling)
+- Tested both an lstm model and random forest
+  - Because we are only predicting one value per zone per year, a traditional model was usable (independence between years, but the time series is inputted as separate features)
+- Output: percent of stations in zone recording hypoxic conditions
+- Data Used:
+  - Hypoxia: <https://www.ncei.noaa.gov/maps/hypoxia/>
+  - Corn/Soybeans: <https://quickstats.nass.usda.gov>
+  - Precipitation: <https://www.ncei.noaa.gov/access/us-climate-normals/>
+  - Wind: <https://www.ndbc.noaa.gov/station_history.php?station=42040>
