@@ -12,3 +12,6 @@ NOTES:
   - Corn/Soybeans: <https://quickstats.nass.usda.gov>
   - Precipitation: <https://www.ncei.noaa.gov/access/us-climate-normals/>
   - Wind: <https://www.ndbc.noaa.gov/station_history.php?station=42040>
+
+
+![Poster](Samyu_Hypoxia.jpeg)
